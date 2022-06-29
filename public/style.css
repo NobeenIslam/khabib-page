@@ -2,12 +2,21 @@ main{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: white;
+
+    background-image: url("./images/dagestan-background-large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .customFont {
     font-family: 'Fighting Spirit TBS', sans-serif;
 }
 
+.nav--logo{
+    height:7.5%;
+    width:7.5%;
+}
 .home--container{
     display: flex;
     flex-direction: column;
