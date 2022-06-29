@@ -1,7 +1,15 @@
-import { greet } from "./utils/greet";
+import { Footer } from "./components/Footer";
+import { Home } from "./components/Home";
+import { NavBar } from "./components/NavBar";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return (
+    <main>
+      <NavBar />
+      <Home />
+      <Footer />
+    </main>
+  );
 }
 
 export default App;

@@ -8,5 +8,5 @@ https://khabib.netlify.app/
 
 # Planning 
 
-Here is a figma of the initial planned design: 
+Here is a figma of the initial planned design: https://www.figma.com/file/r32VhvPVyTbpnzu7cdWUVm/Khabib-Page?node-id=0%3A1
 

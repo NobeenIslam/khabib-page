@@ -1,3 +1,3 @@
-export function AboutInfoCard():JSX.Element{
-    return <></>
+export function AboutInfoCard(): JSX.Element {
+  return <></>;
 }

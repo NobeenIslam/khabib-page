@@ -1,0 +1,43 @@
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    background-color: #074f57;
+    background-blend-mode: multiply ;
+    background-image: url("./images/octagon-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customFont {
+    font-family: 'Fighting Spirit TBS', sans-serif;
+}
+
+.nav--logo{
+    height:7.5%;
+    width:7.5%;
+}
+.home--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+
+}
+
+.home--image{
+    width: 45%;
+    height:45%;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.red{
+    background-color: red;
+}

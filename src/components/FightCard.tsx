@@ -1,3 +1,3 @@
-export function FightCard():JSX.Element{
-    return <></>
+export function FightCard(): JSX.Element {
+  return <></>;
 }

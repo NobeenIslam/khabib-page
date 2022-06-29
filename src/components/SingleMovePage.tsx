@@ -1,3 +1,3 @@
-export function SingleMovePage():JSX.Element{
-    return <></>
+export function SingleMovePage(): JSX.Element {
+  return <></>;
 }
