@@ -1,4 +1,12 @@
-# React Typescript Starter
+# About
 
-This is a template to start a react-app with typescript, eslint, prettier and CI enabled
+This is a page about my favourite UFC fighter Khabib Nurmagomedov
+
+# Deployed Netflify Page
+https://khabib.netlify.app/
+
+
+# Planning 
+
+Here is a figma of the initial planned design: 
 
