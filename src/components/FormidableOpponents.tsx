@@ -1,3 +1,3 @@
-export function FormidableOpponents():JSX.Element{
-    return <></>
+export function FormidableOpponents(): JSX.Element {
+  return <></>;
 }

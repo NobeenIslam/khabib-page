@@ -1,3 +1,3 @@
-export function MovesList():JSX.Element{
-    return <></>
+export function MovesList(): JSX.Element {
+  return <></>;
 }

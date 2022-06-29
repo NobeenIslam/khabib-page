@@ -1,3 +1,3 @@
-export function About():JSX.Element{
-    return <></>
+export function About(): JSX.Element {
+  return <></>;
 }
