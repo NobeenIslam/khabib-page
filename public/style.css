@@ -1,3 +1,30 @@
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .customFont {
     font-family: 'Fighting Spirit TBS', sans-serif;
+}
+
+.home--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.home--image{
+    width: 45%;
+    height:45%;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.red{
+    background-color: red;
 }

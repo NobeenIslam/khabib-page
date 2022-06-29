@@ -5,7 +5,10 @@ export function NavBar(): JSX.Element {
         <div className="navbar-nav">
           <button className="nav-link btn customFont">About</button>
           <button className="nav-link btn customFont">Moves List</button>
-          <button className="nav-link btn customFont"> Formidable Opponents</button>
+          <button className="nav-link btn customFont">
+            {" "}
+            Formidable Opponents
+          </button>
         </div>
         <div className="navbar-brand btn">Eagle</div>
       </div>
