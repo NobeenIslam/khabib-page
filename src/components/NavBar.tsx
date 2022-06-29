@@ -10,7 +10,11 @@ export function NavBar(): JSX.Element {
             Formidable Opponents
           </button>
         </div>
-        <img src = "images/eagle.png" alt = "" className="navbar-brand nav--logo btn"/>
+        <img
+          src="images/eagle.png"
+          alt=""
+          className="navbar-brand nav--logo btn"
+        />
       </div>
     </nav>
   );
