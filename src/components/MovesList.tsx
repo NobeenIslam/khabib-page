@@ -13,7 +13,6 @@ export function MovesList({
 }: MovesListProps): JSX.Element {
   useEffect(() => {
     setMoveView(0);
-    console.log("useEFfect")
   }, [setMoveView]);
 
   const doubleLegTakeDown = movesDisplayInfos[0];
