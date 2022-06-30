@@ -28,24 +28,28 @@ export const movesDisplayInfos: MovesInterface[] = [
     title: "Double Leg Takedown",
     image: "/images/movePics/gsp-double-leg.jpg",
     description: `The double leg takedown (colloquially known as a double leg or double) involves grabbing the opponent with both arms around the opponent's legs while keeping the chest close to the opponent, and using this position to force the opponent to the ground.`,
+    youtubeUrl: "https://www.youtube.com/embed/SUD2PYrIN_I?start=168",
   },
   {
     moveId: 2,
     title: "Eagle Smesh",
     image: "/images/movePics/eagle-smesh.jpg",
     description: `Khabib pins you to the ground and SMESHES you`,
+    youtubeUrl: "https://www.youtube.com/embed/bORIS2rdxZQ?start=62",
   },
   {
     moveId: 3,
     title: "Flying Knee",
     image: "/images/movePics/flying-knee.jpg",
     description: `A knee strike very similar to a front knee, except that it is performed in stand-up fighting by jumping, and often by rushing towards the opponent.`,
+    youtubeUrl: "https://www.youtube.com/embed/pVpJwya8GGk?start=158",
   },
   {
     moveId: 4,
     title: "Rear Naked Choke",
     image: "/images/movePics/rear-naked-choke.jpg",
     description: `A chokehold in martial arts applied from an opponent's back. The word "naked" in this context suggests that, unlike other strangulation techniques found in jujutsu/judo, this hold does not require the use of a keikogi or training uniform.`,
+    youtubeUrl: "https://www.youtube.com/embed/EpXyf5sll1E",
   },
   {
     moveId: 5,
@@ -54,23 +58,27 @@ export const movesDisplayInfos: MovesInterface[] = [
     description: `The Kimura works through isolation of the elbow and shoulder joints. It is done by grabbing your attacker under a double wristlock.
 
     This position enables you to crank behind your opponent’s back. Such a hold puts a tremendous amount of stress on your opponent. It exerts painful pressure on your opponent’s shoulder making it difficult to escape.`,
+    youtubeUrl: "https://www.youtube.com/embed/SpyhKC62exw?start=907",
   },
   {
     moveId: 6,
     title: "Triangle Choke",
     image: "/images/movePics/triangle-choke.jpg",
     description: `A triangle choke, or sankaku-jime in judo, is a type of figure-four chokehold that encircles the opponent's neck and one arm with the legs in a configuration similar to the shape of a triangle.`,
+    youtubeUrl: "https://www.youtube.com/embed/JDSXzDpVAlI",
   },
   {
     moveId: 7,
     title: "Overhand Right",
     image: "/images/movePics/overhand-right.webp",
     description: `An overhand punch is a semi-circular and vertical punch thrown with the rear hand. It is usually employed when the opponent is bobbing or slipping. The strategic utility of the drop relying on body weight can deliver a great deal of power`,
+    youtubeUrl: "https://www.youtube.com/embed/7_nJrFKlApQ?start=28",
   },
   {
     moveId: 8,
     title: "Shoulder Throw",
     image: "/images/movePics/shoulder-throw.webp",
     description: `The shoulder throw involves a competitor turning and lifting their opponent on their back and throwing the opponent over their shoulder.`,
+    youtubeUrl: "https://www.youtube.com/embed/pVpJwya8GGk?start=750",
   },
 ];

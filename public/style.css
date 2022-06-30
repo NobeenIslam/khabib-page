@@ -33,6 +33,10 @@ main{
     margin-bottom: 10px;
 }
 
+.video{
+    max-height:100px
+}
+
 footer{
     margin-top: auto;
 }

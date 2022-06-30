@@ -9,4 +9,5 @@ export interface MovesInterface {
   title: string;
   image: string;
   description: string;
+  youtubeUrl: string;
 }
