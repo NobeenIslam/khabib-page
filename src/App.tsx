@@ -8,13 +8,16 @@ import { NavBar } from "./components/NavBar";
 
 function App(): JSX.Element {
   const [pageView, setPageView] = useState<string>("Home");
+  const [moveView, setMoveView] = useState<number>(0);
 
   return (
     <main>
-      <NavBar setPageView={setPageView} />
+      <NavBar setPageView={setPageView} setMoveView={setMoveView} />
       {pageView === "Home" && <Home />}
       {pageView === "About" && <About />}
-      {pageView === "Moves-List" && <MovesList />}
+      {pageView === "Moves-List" && (
+        <MovesList moveView={moveView} setMoveView={setMoveView} />
+      )}
       {pageView === "Formidable-Opponents" && <FormidableOpponents />}
       <Footer />
     </main>
