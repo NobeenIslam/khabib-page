@@ -55,6 +55,30 @@ main{
 .about--title{
     margin-left: 5%
 }
+
+.moves--display{
+    width:45%
+}
+
+.moves--image{
+    width:75%
+}
+
+@media (max-width:680px) {
+    .moves--display{
+        width:80%
+    }  
+}
+
+.move--text{
+    width:45%;
+    text-align: justify;
+}
+
+.move--video{
+    margin-top:75px;
+}
+
 footer{
     margin-top: auto;
 }
