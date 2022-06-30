@@ -3,3 +3,10 @@ export interface AboutDataInterface {
   text: string;
   image: string;
 }
+
+export interface MovesInterface {
+  moveId: number;
+  title: string;
+  image: string;
+  description: string;
+}

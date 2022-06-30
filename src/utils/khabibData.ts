@@ -1,4 +1,4 @@
-import { AboutDataInterface } from "./interfaces";
+import { AboutDataInterface, MovesInterface } from "./interfaces";
 
 export const earlyLifeData: AboutDataInterface = {
   title: "Early Life",
@@ -21,3 +21,56 @@ export const earlyCareerData: AboutDataInterface = {
   A 16–0 record in the regional circuits of Russia and Ukraine generated interested from the Ultimate Fighting Championship (UFC) in signing Nurmagomedov.Later, Nurmagomedov's father revealed in an interview that due to a contract dispute with ProFC they had 11 court cases contesting the legitimacy of Nurmagomedov's UFC contract. After losing six and winning five cases, they reached an agreement and Khabib was able to continue his career.`,
   image: "/images/aboutPics/early-career.jpg",
 };
+
+export const movesDisplayInfos: MovesInterface[] = [
+  {
+    moveId: 1,
+    title: "Double Leg Takedown",
+    image: "/images/movePics/gsp-double-leg.jpg",
+    description: `The double leg takedown (colloquially known as a double leg or double) involves grabbing the opponent with both arms around the opponent's legs while keeping the chest close to the opponent, and using this position to force the opponent to the ground.`,
+  },
+  {
+    moveId: 2,
+    title: "Eagle Smesh",
+    image: "/images/movePics/eagle-smesh.jpg",
+    description: `Khabib pins you to the ground and SMESHES you`,
+  },
+  {
+    moveId: 3,
+    title: "Flying Knee",
+    image: "/images/movePics/flying-knee.jpg",
+    description: `A knee strike very similar to a front knee, except that it is performed in stand-up fighting by jumping, and often by rushing towards the opponent.`,
+  },
+  {
+    moveId: 4,
+    title: "Rear Naked Choke",
+    image: "/images/movePics/rear-naked-choke.jpg",
+    description: `A chokehold in martial arts applied from an opponent's back. The word "naked" in this context suggests that, unlike other strangulation techniques found in jujutsu/judo, this hold does not require the use of a keikogi or training uniform.`,
+  },
+  {
+    moveId: 5,
+    title: "Kimura",
+    image: "/images/movePics/kimura.jpg",
+    description: `The Kimura works through isolation of the elbow and shoulder joints. It is done by grabbing your attacker under a double wristlock.
+
+    This position enables you to crank behind your opponent’s back. Such a hold puts a tremendous amount of stress on your opponent. It exerts painful pressure on your opponent’s shoulder making it difficult to escape.`,
+  },
+  {
+    moveId: 6,
+    title: "Triangle Choke",
+    image: "/images/movePics/triangle-choke.jpg",
+    description: `A triangle choke, or sankaku-jime in judo, is a type of figure-four chokehold that encircles the opponent's neck and one arm with the legs in a configuration similar to the shape of a triangle.`,
+  },
+  {
+    moveId: 7,
+    title: "Overhand Right",
+    image: "/images/movePics/overhand-right.webp",
+    description: `An overhand punch is a semi-circular and vertical punch thrown with the rear hand. It is usually employed when the opponent is bobbing or slipping. The strategic utility of the drop relying on body weight can deliver a great deal of power`,
+  },
+  {
+    moveId: 8,
+    title: "Shoulder Throw",
+    image: "/images/movePics/shoulder-throw.webp",
+    description: `The shoulder throw involves a competitor turning and lifting their opponent on their back and throwing the opponent over their shoulder.`,
+  },
+];
