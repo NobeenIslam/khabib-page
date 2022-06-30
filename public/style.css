@@ -37,10 +37,24 @@ main{
     color:black
 }
 
-.video{
-    max-height:100px
+.about--navigation{
+    margin-left:5%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.about--text{
+    width:45%;
+    text-align: justify
 }
 
+.about--image{
+    width:40%;
+    margin-bottom:20px;
+}
+
+.about--title{
+    margin-left: 5%
+}
 footer{
     margin-top: auto;
 }
