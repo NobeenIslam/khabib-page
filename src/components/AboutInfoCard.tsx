@@ -7,7 +7,7 @@ interface AboutInfoCardProps {
 export function AboutInfoCard({ data }: AboutInfoCardProps): JSX.Element {
   return (
     <section>
-      <h2>{data.title}</h2>
+      <h1>{data.title}</h1>
       <p>{data.text}</p>
       <img src={data.image} alt="" />
     </section>
