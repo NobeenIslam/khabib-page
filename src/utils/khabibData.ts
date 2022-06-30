@@ -1,4 +1,8 @@
-import { AboutDataInterface, MovesInterface } from "./interfaces";
+import {
+  AboutDataInterface,
+  FightDataInterface,
+  MovesInterface,
+} from "./interfaces";
 
 export const earlyLifeData: AboutDataInterface = {
   title: "Early Life",
@@ -82,3 +86,39 @@ export const movesDisplayInfos: MovesInterface[] = [
     youtubeUrl: "https://www.youtube.com/embed/pVpJwya8GGk?start=750",
   },
 ];
+
+export const kVsConnorData: FightDataInterface = {
+  title: "UFC 229: Khabib vs McGregor",
+  date: "October 6. 2018",
+  rounds: 4,
+  finish: "Submission (neck crank)",
+  description: "Good Fight",
+  image: "/images/oppPics/k-vs-con.jpg",
+};
+
+export const kVsDosAnjosData: FightDataInterface = {
+  title: "Khabib vs Dos Anjos",
+  date: "April 14. 2014",
+  rounds: 3,
+  finish: "Decision",
+  description: "Most Takedowns in one fight",
+  image: "/images/oppPics/k-vs-dos-anjos.jpg",
+};
+
+export const kVsGaethjeData: FightDataInterface = {
+  title: "UFC 254: Khabib vs. Gaethje",
+  date: "October 24. 2020",
+  rounds: 2,
+  finish: "Technical Submission (Triangle Choke)",
+  description: "Owned",
+  image: "/images/oppPics/k-vs-gaethje.jpg",
+};
+
+export const kVsPoirierData: FightDataInterface = {
+  title: "UFC 242: Khabib vs. Poirier",
+  date: "September 7. 2019",
+  rounds: 3,
+  finish: "Submission (Rear Naked Choke)",
+  description: "Smeshed",
+  image: "/images/oppPics/k-vs-poirier.jpg",
+};

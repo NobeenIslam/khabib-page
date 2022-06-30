@@ -33,6 +33,10 @@ main{
     margin-bottom: 10px;
 }
 
+.card--textColor{
+    color:black
+}
+
 .video{
     max-height:100px
 }
