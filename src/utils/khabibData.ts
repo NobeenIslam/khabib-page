@@ -92,7 +92,9 @@ export const kVsConnorData: FightDataInterface = {
   date: "October 6. 2018",
   rounds: 4,
   finish: "Submission (neck crank)",
-  description: "Good Fight",
+  description: `Khabib Nurmagomedov beat Conor McGregor on Saturday night in the main event of UFC 229.
+
+  "He bludgeoned him" is probably a more accurate way to describe it. It went precisely how most of the sport's followers predicted it would go: If McGregor could not keep his back off the canvas, he was in big trouble. You know, like every other Khabib fight.`,
   image: "/images/oppPics/k-vs-con.jpg",
 };
 
@@ -101,7 +103,8 @@ export const kVsDosAnjosData: FightDataInterface = {
   date: "April 14. 2014",
   rounds: 3,
   finish: "Decision",
-  description: "Most Takedowns in one fight",
+  description:
+    "This match has the most beautiful shoulder throw you've ever seen",
   image: "/images/oppPics/k-vs-dos-anjos.jpg",
 };
 
@@ -110,7 +113,7 @@ export const kVsGaethjeData: FightDataInterface = {
   date: "October 24. 2020",
   rounds: 2,
   finish: "Technical Submission (Triangle Choke)",
-  description: "Owned",
+  description: `The main event featured an incredible finish by Khabib Nurmagomedov to choke Justin Gaethje unconscious, and then the real shocker was his decision to leave his gloves in the cage and announce his retirement from MMA`,
   image: "/images/oppPics/k-vs-gaethje.jpg",
 };
 
@@ -119,6 +122,6 @@ export const kVsPoirierData: FightDataInterface = {
   date: "September 7. 2019",
   rounds: 3,
   finish: "Submission (Rear Naked Choke)",
-  description: "Smeshed",
+  description: `Khabib dominated for nearly the entire fight, landing 22 significant strikes to Poirier's 12 and earning seven takedowns to the challenger's zero.`,
   image: "/images/oppPics/k-vs-poirier.jpg",
 };

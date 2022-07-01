@@ -1,3 +1,4 @@
+import { Carousel } from "react-bootstrap";
 import {
   kVsConnorData,
   kVsDosAnjosData,
@@ -9,10 +10,28 @@ import { FightCard } from "./FightCard";
 export function FormidableOpponents(): JSX.Element {
   return (
     <section>
-      <FightCard fightData={kVsConnorData} />
-      <FightCard fightData={kVsGaethjeData} />
-      <FightCard fightData={kVsPoirierData} />
-      <FightCard fightData={kVsDosAnjosData} />
+      <Carousel>
+        <Carousel.Item>
+          <div className="card--container">
+            <FightCard fightData={kVsConnorData} />
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="card--container">
+            <FightCard fightData={kVsGaethjeData} />
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="card--container">
+            <FightCard fightData={kVsPoirierData} />
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="card--container">
+            <FightCard fightData={kVsDosAnjosData} />
+          </div>
+        </Carousel.Item>
+      </Carousel>
     </section>
   );
 }
