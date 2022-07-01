@@ -1,46 +1,100 @@
-main{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    
-    background-color: #074f57;
-    background-blend-mode: multiply ;
-    background-image: url("./images/octagon-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  background-color: #074f57;
+  background-blend-mode: multiply;
+  background-image: url("./images/octagon-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .customFont {
-    font-family: 'Fighting Spirit TBS', sans-serif;
+  font-family: "Fighting Spirit TBS", sans-serif;
 }
 
-.nav--logo{
-    height:7.5%;
-    width:7.5%;
+.nav--logo {
+  height: 7.5%;
+  width: 7.5%;
 }
 
-.home--container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+.home--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
-.home--image{
-    width: 45%;
-    height:45%;
-    margin-bottom: 10px;
+.home--image {
+  width: 45%;
+  height: 45%;
+  margin-bottom: 10px;
 }
 
-.video{
-    max-height:100px
+.card--textColor {
+  color: black;
 }
 
-footer{
-    margin-top: auto;
+.about--navigation {
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about--text {
+  width: 45%;
+  text-align: justify;
 }
 
-.red{
-    background-color: red;
+.about--image {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.about--title {
+  margin-left: 5%;
+}
+
+.moves--display {
+  width: 45%;
+}
+
+.moves--image {
+  width: 75%;
+}
+
+@media (max-width: 680px) {
+  .moves--display {
+    width: 80%;
+  }
+}
+
+.move--text {
+  width: 45%;
+  text-align: justify;
+}
+
+.move--video {
+  margin-top: 75px;
+}
+
+.card--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.cardSize {
+  min-height: 550px;
+  width: 30%;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.red {
+  background-color: red;
 }

@@ -27,9 +27,13 @@ export function MovesList({
   console.log(moveView, moveView === 0);
 
   const movesDisplays = movesDisplayInfos.map((movesDisplayInfo) => (
-    <div key={movesDisplayInfo.moveId}>
+    <div
+      className="d-flex flex-column justify-content-center align-items-center m-3 moves--display"
+      key={movesDisplayInfo.moveId}
+    >
       <h5>{movesDisplayInfo.title}</h5>
       <img
+        className="moves--image"
         src={movesDisplayInfo.image}
         alt=""
         onClick={() => setMoveView(movesDisplayInfo.moveId)}
@@ -38,7 +42,9 @@ export function MovesList({
   ));
   return (
     <section>
-      {moveView === 0 && movesDisplays}
+      {moveView === 0 && (
+        <div className="d-flex flex-row flex-wrap">{movesDisplays}</div>
+      )}
       {moveView === 1 && <SingleMovePage move={doubleLegTakeDown} />}
       {moveView === 2 && <SingleMovePage move={eagleSmesh} />}
       {moveView === 3 && <SingleMovePage move={flyingKnee} />}

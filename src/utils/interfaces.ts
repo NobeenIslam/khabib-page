@@ -11,3 +11,12 @@ export interface MovesInterface {
   description: string;
   youtubeUrl: string;
 }
+
+export interface FightDataInterface {
+  title: string;
+  date: string;
+  rounds: number;
+  finish: string;
+  description: string;
+  image: string;
+}
