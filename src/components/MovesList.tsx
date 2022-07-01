@@ -24,8 +24,6 @@ export function MovesList({
   const overhandRight = movesDisplayInfos[6];
   const shoulderThrow = movesDisplayInfos[7];
 
-  console.log(moveView, moveView === 0);
-
   const movesDisplays = movesDisplayInfos.map((movesDisplayInfo) => (
     <div
       className="d-flex flex-column justify-content-center align-items-center m-3 moves--display"

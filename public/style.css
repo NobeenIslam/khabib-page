@@ -64,6 +64,10 @@ main {
   width: 75%;
 }
 
+.moves--image:hover{
+  cursor: pointer;
+}
+
 @media (max-width: 680px) {
   .moves--display {
     width: 80%;
@@ -76,7 +80,7 @@ main {
 }
 
 .move--video {
-  margin-top: 75px;
+  margin-top: 35px;
 }
 
 .card--container {
@@ -90,6 +94,7 @@ main {
   min-height: 550px;
   width: 30%;
 }
+
 
 footer {
   margin-top: auto;

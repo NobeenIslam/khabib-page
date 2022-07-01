@@ -1,4 +1,4 @@
-import kAnnoucement from "../audio/kAnnouncement.mp3";
+import kAnnouncement from "../audio/kAnnouncement.mp3";
 import kHamd from "../audio/kHamd.mp3";
 import kLocation from "../audio/kLocation.mp3";
 import kSmash2 from "../audio/kSmash2.mp3";
@@ -9,7 +9,7 @@ interface NavBarProps {
 }
 
 export function NavBar({ setPageView, setMoveView }: NavBarProps): JSX.Element {
-  const announceMentSound = new Audio(kAnnoucement);
+  const announceMentSound = new Audio(kAnnouncement);
   const hamdSound = new Audio(kHamd);
   const locationSound = new Audio(kLocation);
   const smashSound = new Audio(kSmash2);

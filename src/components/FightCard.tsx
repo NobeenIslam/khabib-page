@@ -5,7 +5,6 @@ interface FightCardProps {
 }
 
 export function FightCard({ fightData }: FightCardProps): JSX.Element {
-  console.log(fightData);
   return (
     <div className="card border-dark mb-3 cardSize">
       <img className="card-img-top" src={fightData.image} alt="" />
